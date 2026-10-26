@@ -1,0 +1,203 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+/* body{ */
+	/* overflow-x:hidden; */
+/* } */
+.header{
+	background-color:#6100d1;
+	height:111%;
+}
+.nav_list{
+	  font-family: "Outfit", sans-serif;
+	  font-size:20px;
+}
+
+.section{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	color:white;
+}
+
+.section h3{
+	font-size:40px;
+}
+.btn{
+	border-radius:4px;
+	padding: 10px 20px;
+	background-color:white;
+	font-size:13px;
+	text-decoration:none;
+	border:2px solid white;
+	color:black;
+	font-family: "Quicksand", sans-serif;
+}
+
+
+.btn:hover{
+	background-color:transparent;
+	color:blue;
+	border:4px white:
+}
+	
+	
+
+.btn2{
+	margin:0 10px 2px;
+	border-radius:4px;
+	padding: 10px 16px;
+	background-color:#white;
+	font-size:13px;
+	text-decoration:none;
+	border:2px solid white;
+	color:white;
+	font-family: "Quicksand", sans-serif;
+}
+
+
+.images img{
+	height:350px;
+
+}
+
+
+.sub-section{
+	text-align:center;
+	margin:2rem;
+	font-family: "Quicksand", sans-serif;
+}
+
+.card{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+
+}
+.card{
+	margin-left:4rem;
+	border:1px solid white;
+
+}
+
+.sub-card1{
+	padding:12px;
+}
+.sub-card2{
+	padding:12px;
+	background-color:#6100d1;
+}
+.sub-card3{
+	padding:12px;
+}
+.sub-card1:hover{
+	background-color:#6100d1;
+	transition:3s;
+}
+.sub-card3:hover{
+	background-color:#6100d1;
+	transition:3s;
+}
+.mini-section{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	padding-left:5rem;
+}
+
+.images img{
+	height:500px;
+	width:450px;
+	
+}
+
+.side-text{
+	position:relative;
+	width:80%;
+	height:50%;
+	top:200;
+	left:100px;
+	
+}
+.side-text h3{
+	font-weight:bold;
+	font-size:30px;
+}
+
+.btn-2{
+	text-decoration:none;
+	background-color:#6100d1;
+	border-radius:10px;
+	padding:18px 10px;  
+	color:white;
+	font-weight:bold;
+}
+
+
+
+.mini-section1{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	padding-left:-3rem;
+	
+}
+
+
+.images1 img{
+	height:300px;
+	width:450px;
+	
+}
+
+.side-text1 h3{
+	font-weight:bold;
+	font-size:30px;
+}
+.side-text1 p{
+	font-family: Montserrat, sans-serif;
+}
+
+.btn-3{
+	text-decoration:none;
+	background-color:#6100d1;
+	border-radius:10px;
+	padding:18px 10px;  
+	color:white;
+	font-weight:bold;
+}
+
+
+.mini-section3{
+	display:block;
+	text-align:center;
+	align-content:center;
+	justify-content:center;
+}
+
+.mini-section3 img{
+	height:20vh;
+}
+
+.footer_section{
+	background-color:#6100d1;
+	color:white;
+	text-align:center;
+	
+	
+}
+.form{
+	border:nonex	;
+	outline:none;
+}
+.footer_btn{
+	border:2px solid white;
+	border-radius: 4px;
+	padding:8px 15px;
+	font-size:25px;
+	text-decoration:none;
+	color:white;
+}
